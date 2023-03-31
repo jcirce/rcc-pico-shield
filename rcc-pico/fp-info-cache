@@ -1,4 +1,4 @@
-20595457819822982
+20608899557586146
 3rdparty
 CUI_PJ-006A
 
@@ -6,6 +6,27 @@ CUI_PJ-006A
 0
 3
 3
+3rdparty
+ON_Semiconductor-318-08-01_2018-AS-IPC_A
+
+
+0
+3
+3
+3rdparty
+ON_Semiconductor-318-08-01_2018-AS-IPC_B
+
+
+0
+3
+3
+3rdparty
+PinHeader_3x14_P2.54mm_Vertical
+
+
+0
+42
+42
 3rdparty
 PinHeader_3x20_P2.54mm_Vertical
 
@@ -33348,6 +33369,27 @@ Surface mounted pin header SMD 2x40 2.00mm double row
 80
 80
 Connector_PinHeader_2.54mm
+PinHeader3x3_P2.54mm_Vertical
+
+
+0
+9
+9
+Connector_PinHeader_2.54mm
+PinHeader3x5_P2.54mm_Vertical
+
+
+0
+15
+15
+Connector_PinHeader_2.54mm
+PinHeader4x4_P_2.54mm_Vertical
+
+
+0
+16
+16
+Connector_PinHeader_2.54mm
 PinHeader_1x01_P2.54mm_Horizontal
 Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x01 2.54mm single row
@@ -54991,6 +55033,13 @@ wurth wuerth smd inductor
 0
 2
 2
+Inductor_SMD
+SIDMP-SP0530
+0530CDMCCDS-R47MC-1
+Inductor
+0
+2
+2
 Inductor_THT
 Choke_EPCOS_B82722A
 Current-Compensated Ring Core Double Chokes, EPCOS, B82722A, 22.3mmx22.7mm, https://en.tdk.eu/inf/30/db/ind_2008/b82722a_j.pdf
@@ -70139,6 +70188,13 @@ Sanyo SIP-15
 0
 15
 15
+Package_SO
+AP2115M-3.3TRG1
+
+
+0
+8
+8
 Package_SO
 Diodes_PSOP-8
 8-Lead Plastic PSOP, Exposed Die Pad (see https://www.diodes.com/assets/Datasheets/AP2204.pdf)
