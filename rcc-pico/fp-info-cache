@@ -1,4 +1,4 @@
-20624023808185741
+20625704344666937
 3rdparty
 CUI_PJ-006A
 
@@ -34618,6 +34618,13 @@ Connector_PinHeader_2.54mm
 PinHeader_2x04_P2.54mm_Vertical
 Through hole straight pin header, 2x04, 2.54mm pitch, double rows
 Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+Connector_PinHeader_2.54mm
+PinHeader_2x04_P2.54mm_Vertical-down
+
+
 0
 8
 8
