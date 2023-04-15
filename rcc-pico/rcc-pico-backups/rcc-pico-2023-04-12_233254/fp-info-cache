@@ -1,4 +1,4 @@
-21621560938536387
+21616516186591149
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -78988,20 +78988,6 @@ TO-264-5 Vertical RM 3.81mm
 5
 5
 PicoShieldHeaders
-AP2115M-3.3TRG1
-
-
-0
-8
-8
-PicoShieldHeaders
-BWVS00606045
-
-
-0
-2
-2
-PicoShieldHeaders
 CUI_PJ-006A
 
 
@@ -79057,13 +79043,6 @@ PinHeader_3x11_P2.54mm_Vertical
 0
 30
 30
-PicoShieldHeaders
-RPi_Pico_SMD_TH
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-40
-40
 PicoShieldHeaders
 SW-T3-2B-A-A3-S1
 

@@ -505,6 +505,67 @@
         )
       )
     )
+    (symbol "Connector_Generic:Conn_02x02_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 1.27 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_02x02_Odd_Even" (at 1.27 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_02x02_Odd_Even_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 3.81 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 0 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -2.54 180) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector_Generic:Conn_02x03_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 5.08 0)
         (effects (font (size 1.27 1.27)))
@@ -672,147 +733,6 @@
         (pin passive line (at 7.62 -5.08 180) (length 3.81)
           (name "Pin_8" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_02x07_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 1.27 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_02x07_Odd_Even" (at 1.27 -10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_02x07_Odd_Even_1_1"
-        (rectangle (start -1.27 -7.493) (end 0 -7.747)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 7.747) (end 0 7.493)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 8.89) (end 3.81 -8.89)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 3.81 -7.493) (end 2.54 -7.747)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 -4.953) (end 2.54 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 2.667) (end 2.54 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 5.207) (end 2.54 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 7.747) (end 2.54 7.493)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 7.62 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 3.81)
-          (name "Pin_10" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_11" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -5.08 180) (length 3.81)
-          (name "Pin_12" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_13" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -7.62 180) (length 3.81)
-          (name "Pin_14" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 7.62 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 5.08 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 3.81)
-          (name "Pin_8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_9" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2940,25 +2860,25 @@
     (uuid fbc8453e-d49a-4387-b897-639f0eebb94e)
   )
 
-  (no_connect (at 208.28 29.21) (uuid 02f00490-5857-46a4-8bde-759926f756dc))
+  (no_connect (at 189.23 40.64) (uuid 02cc1e23-d6d9-498b-9d94-40ac412c2ca9))
   (no_connect (at 214.63 129.54) (uuid 083f5e84-87e5-4458-8830-4246a2b75c85))
+  (no_connect (at 201.93 30.48) (uuid 1933eb29-8945-4901-bfe2-1b339dd654d2))
   (no_connect (at 220.98 31.75) (uuid 27bb6c62-489e-4eda-905e-cd42d0ced684))
   (no_connect (at 232.41 83.82) (uuid 3619b57c-c6ee-4625-80de-e1d7d038b693))
   (no_connect (at 220.98 34.29) (uuid 376ee4ec-19df-4249-8afe-f6645e046c45))
+  (no_connect (at 201.93 33.02) (uuid 40383a75-8cbc-4f95-9411-3188e05ffb67))
+  (no_connect (at 201.93 40.64) (uuid 4e1a242d-e84d-4761-8a55-8a2219596080))
+  (no_connect (at 189.23 33.02) (uuid 5216efcd-2bec-4137-a8fb-808be02c6f39))
   (no_connect (at 232.41 88.9) (uuid 56990d49-d48c-44e7-8d81-45ebf485b510))
   (no_connect (at 208.28 36.83) (uuid 573fac99-a87e-4116-80a5-bb8824c0e03f))
+  (no_connect (at 189.23 30.48) (uuid 5863fa39-66d2-488f-a715-14652978a7e8))
   (no_connect (at 217.17 129.54) (uuid 6327f64d-b9d6-4506-a119-7c37316dc6df))
-  (no_connect (at 220.98 29.21) (uuid 6365b78a-e125-495f-9c5f-b745b379bcaf))
-  (no_connect (at 208.28 39.37) (uuid 6e93a319-68fd-4ff1-a699-de28faf4579f))
-  (no_connect (at 220.98 41.91) (uuid 72b58a9f-519c-42d7-9e75-f7ae585397f4))
-  (no_connect (at 220.98 26.67) (uuid 88665dbe-c928-4a1b-bd4e-a95d00a2e3eb))
-  (no_connect (at 208.28 41.91) (uuid 9c941445-f4e6-426d-8f16-7a739490ccb8))
   (no_connect (at 208.28 34.29) (uuid a280614e-ab2a-4d89-88ad-d7b9b292549f))
+  (no_connect (at 201.93 43.18) (uuid b4af0744-8678-4603-82ec-d0a34ffb2462))
   (no_connect (at 232.41 76.2) (uuid c94e8be2-b44c-41eb-b8fa-946748f53e7c))
   (no_connect (at 232.41 86.36) (uuid cced1969-5cb5-43f9-8a74-a3857888afc8))
+  (no_connect (at 189.23 43.18) (uuid ccfc3bfc-585b-4ca6-b13a-269a8accbf08))
   (no_connect (at 220.98 36.83) (uuid d48214c3-5fe0-42bf-b6f4-5d0a5646519a))
-  (no_connect (at 220.98 39.37) (uuid e704c4d4-cd33-44db-9bdb-d0f3b83e5e3c))
-  (no_connect (at 208.28 26.67) (uuid eec4d541-71fc-4709-ba03-f0eec0af5775))
   (no_connect (at 208.28 31.75) (uuid f2d25e83-c18f-461a-8cb1-b0c9b5390807))
   (no_connect (at 212.09 129.54) (uuid f62b6deb-6d54-452c-9dc6-c177e577f0f5))
 
@@ -3628,7 +3548,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c074063c-e01b-4123-a583-616b68e3b34c)
   )
-  (text "Shunt Garage" (at 205.74 46.99 0)
+  (text "Shunt Garage" (at 193.04 48.26 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid d1b0270a-c381-44d0-b2b9-80cd013f634b)
   )
@@ -3685,6 +3605,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 066f14f1-8a99-4af3-904b-9399e2c469a4)
   )
+  (label "GPIO19" (at 267.97 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0aa45a02-50db-4ed6-a310-ad37b2851f53)
+  )
   (label "GPIO0" (at 158.75 72.39 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0cbdd368-df3e-4deb-98af-5525dacb9a7c)
@@ -3737,10 +3661,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2507dd80-fc27-48f8-b688-77228679cf26)
   )
-  (label "GPIO16" (at 266.7 114.3 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 254ef18f-69b9-451e-8941-50d292fb5773)
-  )
   (label "GPIO28" (at 232.41 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 25af733b-38e7-4a47-b516-913bb311ba0b)
@@ -3765,6 +3685,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f5a833d-9724-4227-ae1d-47bac4127616)
   )
+  (label "GPIO16" (at 266.7 109.22 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 30b4a9c9-ffac-45ed-84ec-64ee8456b18c)
+  )
   (label "GPIO26" (at 232.41 99.06 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 337c9d15-6610-48c5-bd53-bf11af6d92d7)
@@ -3781,17 +3705,9 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3b761fdf-810a-47d3-8dff-5478e6389ae4)
   )
-  (label "3V3_PWM_3" (at 266.7 121.92 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 41129cce-4d67-4e43-bb7f-efc00161bb6f)
-  )
   (label "3V3_PWM_3" (at 97.79 177.8 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 41af7b4d-fd03-4db2-bd52-2d1269e0535e)
-  )
-  (label "GPIO18" (at 266.7 109.22 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 44f15874-d3d2-4260-bc62-b51815f66cf3)
   )
   (label "GPIO10" (at 196.85 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3824,10 +3740,6 @@
   (label "GPIO16" (at 232.41 124.46 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 58fa21b9-369b-472d-8c99-2c8c142d2671)
-  )
-  (label "GPIO19" (at 267.97 74.93 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5bc20707-f141-4de3-80a6-d79c48225450)
   )
   (label "GPIO1" (at 196.85 78.74 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3881,6 +3793,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 791868b2-ba9e-4ef2-b054-fbb0a3696efd)
   )
+  (label "3V3_PWM_3" (at 266.7 116.84 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7a99e63f-16f7-4726-91fd-53fa479c978e)
+  )
   (label "GPIO20" (at 232.41 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7c07fd17-af18-4c62-a9cf-c19437616f7d)
@@ -3892,10 +3808,6 @@
   (label "MTRPWR" (at 74.93 128.27 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 833569ac-f723-4625-a37d-e25f04d9066f)
-  )
-  (label "GPIO21" (at 267.97 69.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8888c002-bbbb-4476-934c-23aeb5bbe233)
   )
   (label "run" (at 232.41 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3920,6 +3832,14 @@
   (label "GND" (at -40.64 198.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97831a26-6046-4300-9be9-93f03862db6e)
+  )
+  (label "3V3_PWM_1" (at 266.7 121.92 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 97f099a3-7448-4135-a673-8b2dd7507530)
+  )
+  (label "GPIO21" (at 267.97 74.93 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 982eaef4-b8ac-4685-b1f7-70e39d2a44b8)
   )
   (label "GPIO17" (at 266.7 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3969,6 +3889,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b1e3cd11-392e-4ce7-a563-797e328dc367)
   )
+  (label "GPIO18" (at 266.7 114.3 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bd58a6a7-b08a-4deb-8970-ae08b98ee742)
+  )
   (label "GND" (at 232.41 119.38 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bec1ae82-51f1-4a26-b85c-39a38b679763)
@@ -3980,10 +3904,6 @@
   (label "GND" (at 196.85 106.68 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c19bc426-5d61-4dbf-b98e-1b8a09163b15)
-  )
-  (label "3V3_PWM_1" (at 266.7 116.84 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c2763380-9b54-4451-9209-545313e31516)
   )
   (label "GPIO9" (at 196.85 104.14 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -4062,7 +3982,7 @@
     (property "Value" "AP2115M-3.3TRG1" (at 50.8 85.09 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_SO:AP2115M-3.3TRG1" (at 50.8 86.614 0)
+    (property "Footprint" "PicoShieldHeaders:AP2115M-3.3TRG1" (at 50.8 86.614 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 30.48 92.71 0)
@@ -4088,7 +4008,7 @@
   (symbol (lib_id "power:GND") (at 184.15 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 010d50b2-f44e-494f-ab37-9f82469fda0e)
-    (property "Reference" "#PWR019" (at 184.15 128.27 0)
+    (property "Reference" "#PWR026" (at 184.15 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 123.1899 0)
@@ -4104,7 +4024,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4119,7 +4039,7 @@
     (property "Value" "4.7u" (at 143.51 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:BWVS00606045" (at 143.51 38.1 0)
+    (property "Footprint" "PicoShieldHeaders:BWVS00606045" (at 143.51 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 143.51 38.1 0)
@@ -4139,7 +4059,7 @@
   (symbol (lib_id "Device:C") (at 166.37 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07af5bc1-f980-4005-979d-6d3076454a6c)
-    (property "Reference" "C6" (at 170.18 40.6399 0)
+    (property "Reference" "C3" (at 170.18 40.6399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22μ" (at 170.18 43.18 0)
@@ -4156,7 +4076,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4165,7 +4085,7 @@
   (symbol (lib_id "power:GND") (at 55.88 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c59a4d4-3314-4b39-a60f-276c27e50c79)
-    (property "Reference" "#PWR?" (at 55.88 143.51 0)
+    (property "Reference" "#PWR030" (at 55.88 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 142.24 0)
@@ -4181,7 +4101,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4190,7 +4110,7 @@
   (symbol (lib_id "power:+3.3V") (at 173.99 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d6b0879-f1a3-4831-95a4-43ddb97b80c8)
-    (property "Reference" "#PWR016" (at 173.99 119.38 0)
+    (property "Reference" "#PWR027" (at 173.99 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 173.99 127 0)
@@ -4206,7 +4126,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4242,7 +4162,7 @@
   (symbol (lib_id "power:GND") (at 82.55 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1271a6da-eccf-45ca-ba89-e6cacb0edad3)
-    (property "Reference" "#PWR05" (at 82.55 53.34 0)
+    (property "Reference" "#PWR08" (at 82.55 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 52.07 0)
@@ -4258,7 +4178,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4267,7 +4187,7 @@
   (symbol (lib_id "power:GND") (at 102.87 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14ea2671-dcab-4178-870e-9e53487e6560)
-    (property "Reference" "#PWR026" (at 102.87 105.41 0)
+    (property "Reference" "#PWR024" (at 102.87 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 104.14 0)
@@ -4283,7 +4203,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4292,7 +4212,7 @@
   (symbol (lib_id "power:GND") (at 267.97 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19d9a493-ddee-4946-b69c-c2a7ad32dcdc)
-    (property "Reference" "#PWR028" (at 274.32 57.15 0)
+    (property "Reference" "#PWR09" (at 274.32 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 271.78 57.15 90)
@@ -4308,7 +4228,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4317,7 +4237,7 @@
   (symbol (lib_id "power:GND") (at 149.86 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ac90332-0d7a-4cbc-8170-5e7e8d7353e7)
-    (property "Reference" "#PWR08" (at 149.86 68.58 0)
+    (property "Reference" "#PWR012" (at 149.86 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 67.31 0)
@@ -4333,7 +4253,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4342,7 +4262,7 @@
   (symbol (lib_id "power:GND") (at 271.78 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23aa966f-5cd1-45f7-a12a-76b3180c77b0)
-    (property "Reference" "#PWR044" (at 278.13 38.1 0)
+    (property "Reference" "#PWR04" (at 278.13 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 38.1 90)
@@ -4358,7 +4278,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4367,7 +4287,7 @@
   (symbol (lib_id "Device:R_US") (at 93.98 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28fd1b1b-9e19-4856-9ff0-d879a28c6e86)
-    (property "Reference" "R9" (at 96.52 168.9099 0)
+    (property "Reference" "R10" (at 96.52 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 96.52 171.4499 0)
@@ -4384,7 +4304,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4393,7 +4313,7 @@
   (symbol (lib_id "Device:LED") (at 55.88 125.73 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c1f3eb7-0e70-4ee9-bd71-5bfeaab6f0f0)
-    (property "Reference" "D?" (at 60.96 127 90)
+    (property "Reference" "D2" (at 60.96 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 60.96 124.46 90)
@@ -4410,7 +4330,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -4445,7 +4365,7 @@
   (symbol (lib_id "Device:C") (at 50.8 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30704828-9981-4a4c-ba17-d15beecf9c97)
-    (property "Reference" "C1" (at 54.61 48.2599 0)
+    (property "Reference" "C5" (at 54.61 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10μ" (at 54.61 50.7999 0)
@@ -4462,7 +4382,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C1") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4471,7 +4391,7 @@
   (symbol (lib_id "Device:R_US") (at 64.77 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37558cff-8343-4291-bc6f-0de6b4f17bd0)
-    (property "Reference" "R7" (at 67.31 168.9099 0)
+    (property "Reference" "R8" (at 67.31 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 67.31 171.4499 0)
@@ -4488,7 +4408,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4497,7 +4417,7 @@
   (symbol (lib_id "power:+3.3V") (at 64.77 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38610ff1-d9aa-4fae-b62e-78b0cce1b07a)
-    (property "Reference" "#PWR036" (at 64.77 166.37 0)
+    (property "Reference" "#PWR040" (at 64.77 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 64.77 157.48 0)
@@ -4513,7 +4433,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4522,7 +4442,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 257.81 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b3748ac-844b-40ff-b8af-2151d97f5614)
-    (property "Reference" "J?" (at 259.08 148.59 0)
+    (property "Reference" "J12" (at 259.08 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Odd_Even" (at 259.08 161.29 0)
@@ -4545,7 +4465,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J?") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -4605,7 +4525,7 @@
   (symbol (lib_id "power:GND") (at 71.12 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40dd8eea-2ba6-430c-9a86-8d3d6900799b)
-    (property "Reference" "#PWR022" (at 77.47 97.79 0)
+    (property "Reference" "#PWR023" (at 77.47 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 97.7899 90)
@@ -4621,7 +4541,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4630,7 +4550,7 @@
   (symbol (lib_id "power:+3.3V") (at 93.98 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a7e222a-c293-4875-b5b3-dad79f77545d)
-    (property "Reference" "#PWR038" (at 93.98 166.37 0)
+    (property "Reference" "#PWR042" (at 93.98 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 93.98 157.48 0)
@@ -4646,7 +4566,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4655,7 +4575,7 @@
   (symbol (lib_id "power:+5V") (at 78.74 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c65761c-6484-4811-93c8-6aa4b272be11)
-    (property "Reference" "#PWR037" (at 78.74 166.37 0)
+    (property "Reference" "#PWR041" (at 78.74 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 76.2 158.75 0)
@@ -4671,7 +4591,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -4755,7 +4675,7 @@
   (symbol (lib_id "Pico_Shield_Headers:Conn_03x03") (at 271.78 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52d1e303-8bcf-46ec-ad99-a2c643a10bbe)
-    (property "Reference" "J8" (at 264.16 52.07 0)
+    (property "Reference" "J4" (at 264.16 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 271.78 62.23 0)
@@ -4779,7 +4699,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J8") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -4788,7 +4708,7 @@
   (symbol (lib_id "power:+5V") (at 118.11 173.99 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53b5ced3-3ea5-499a-92f8-ca9e6b188d1e)
-    (property "Reference" "#PWR043" (at 114.3 173.99 0)
+    (property "Reference" "#PWR044" (at 114.3 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 121.92 173.99 90)
@@ -4804,7 +4724,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4819,7 +4739,7 @@
     (property "Value" "SW_SPST" (at 80.01 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "3rdparty:SW-T3-2B-A-A3-S1" (at 80.01 128.27 0)
+    (property "Footprint" "PicoShieldHeaders:SW-T3-2B-A-A3-S1" (at 80.01 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 80.01 128.27 0)
@@ -4839,7 +4759,7 @@
   (symbol (lib_id "power:GND") (at 266.7 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 565f93b4-b205-42b9-9a39-3f669d99f1ea)
-    (property "Reference" "#PWR027" (at 273.05 96.52 0)
+    (property "Reference" "#PWR022" (at 273.05 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 270.51 97.155 90)
@@ -4855,7 +4775,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4864,7 +4784,7 @@
   (symbol (lib_id "power:+3.3V") (at 22.86 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 578356b6-2ab0-4315-8ac1-9aded27e1b78)
-    (property "Reference" "#PWR013" (at 26.67 92.71 0)
+    (property "Reference" "#PWR019" (at 26.67 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 16.51 92.71 90)
@@ -4880,7 +4800,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4889,7 +4809,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 236.22 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a40fce5-fdac-43f2-9cff-f9520418ad15)
-    (property "Reference" "J?" (at 237.49 148.59 0)
+    (property "Reference" "J11" (at 237.49 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Odd_Even" (at 237.49 161.29 0)
@@ -4912,7 +4832,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J?") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -4946,7 +4866,7 @@
   (symbol (lib_id "power:GND") (at 154.94 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fe75189-b000-40f6-8f49-9a0b76099d98)
-    (property "Reference" "#PWR012" (at 148.59 158.75 0)
+    (property "Reference" "#PWR034" (at 148.59 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 158.75 90)
@@ -4962,7 +4882,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5023,7 +4943,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 163.83 35.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66841d07-b5a5-48e4-8f2e-d34b20c4f783)
-    (property "Reference" "#FLG03" (at 165.735 35.56 0)
+    (property "Reference" "#FLG01" (at 165.735 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 167.64 35.5599 90)
@@ -5039,7 +4959,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -5073,7 +4993,7 @@
   (symbol (lib_id "power:GND") (at 163.83 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6965b694-5b09-4773-855d-1fe30997f217)
-    (property "Reference" "#PWR010" (at 163.83 52.07 0)
+    (property "Reference" "#PWR07" (at 163.83 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 50.8 0)
@@ -5089,7 +5009,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -5123,7 +5043,7 @@
   (symbol (lib_id "power:+3.3V") (at 166.37 176.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7516911a-8d27-460d-b572-bf9970585b3d)
-    (property "Reference" "#PWR040" (at 162.56 176.53 0)
+    (property "Reference" "#PWR046" (at 162.56 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 172.72 176.53 90)
@@ -5139,7 +5059,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -5148,7 +5068,7 @@
   (symbol (lib_id "power:+3.3V") (at 266.7 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 786f61c0-56c8-412f-9e4c-272bc0108189)
-    (property "Reference" "#PWR029" (at 262.89 104.14 0)
+    (property "Reference" "#PWR025" (at 262.89 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 273.05 104.14 90)
@@ -5164,7 +5084,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5173,7 +5093,7 @@
   (symbol (lib_id "Device:C") (at 161.29 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79e1a079-1959-4bcc-957b-8153971c02bb)
-    (property "Reference" "C5" (at 152.4 40.64 0)
+    (property "Reference" "C2" (at 152.4 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22μ" (at 153.67 43.18 0)
@@ -5190,7 +5110,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -5205,10 +5125,13 @@
     (property "Value" "SW_SPST" (at 39.37 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "3rdparty:SW-T3-2B-A-A3-S1" (at 39.37 40.64 0)
+    (property "Footprint" "PicoShieldHeaders:SW-T3-2B-A-A3-S1" (at 39.37 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "" (at 39.37 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4e39c7e3-eb1e-434c-8957-0ce3f3146df1))
@@ -5225,7 +5148,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 160.02 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 838223f7-3727-4170-b27b-22bcd9d56aba)
-    (property "Reference" "J3" (at 161.29 148.59 0)
+    (property "Reference" "J9" (at 161.29 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Odd_Even" (at 161.29 161.29 0)
@@ -5248,7 +5171,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J3") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -5257,7 +5180,7 @@
   (symbol (lib_id "power:GND") (at 151.13 176.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83c89026-8795-4299-bdfc-282ae06d92ad)
-    (property "Reference" "#PWR041" (at 144.78 176.53 0)
+    (property "Reference" "#PWR045" (at 144.78 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 176.53 90)
@@ -5273,7 +5196,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -5282,7 +5205,7 @@
   (symbol (lib_id "power:GND") (at 200.66 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84d326c0-3fc3-47d2-a057-6023e3d8af92)
-    (property "Reference" "#PWR020" (at 194.31 158.75 0)
+    (property "Reference" "#PWR035" (at 194.31 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 158.75 90)
@@ -5298,7 +5221,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -5307,7 +5230,7 @@
   (symbol (lib_id "power:GND") (at 238.76 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8515eab6-e179-4d5c-858c-1b6d94b577a9)
-    (property "Reference" "#PWR039" (at 238.76 53.34 0)
+    (property "Reference" "#PWR010" (at 238.76 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 58.4199 0)
@@ -5323,7 +5246,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5332,7 +5255,7 @@
   (symbol (lib_id "power:+3.3V") (at 200.66 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85f144ac-e7b2-471c-b54d-34e45045a4ae)
-    (property "Reference" "#PWR018" (at 204.47 156.21 0)
+    (property "Reference" "#PWR032" (at 204.47 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 194.31 156.21 90)
@@ -5348,7 +5271,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5383,7 +5306,7 @@
   (symbol (lib_id "Pico_Shield_Headers:Conn_03x04") (at 265.43 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b16c4f5-716b-4386-bc12-5138e5b6063e)
-    (property "Reference" "J7" (at 261.6581 91.44 0)
+    (property "Reference" "J6" (at 261.6581 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 265.43 104.14 0)
@@ -5395,17 +5318,17 @@
     (property "Datasheet" "" (at 265.43 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b491d726-c74b-42bc-8aec-8431f049ead6))
-    (pin "1" (uuid 0ecec9c6-b36e-4ac7-9107-c43079739fb9))
+    (pin "1" (uuid 0ecec9c6-b36e-4ac7-9107-c43079739fbc))
+    (pin "1" (uuid 0ecec9c6-b36e-4ac7-9107-c43079739fbc))
     (pin "10" (uuid 9111bcb1-7d0f-4e52-a6b1-42b4b69a59b6))
     (pin "11" (uuid 698aa4d6-6737-49d5-b4a4-6ed718f4f749))
     (pin "12" (uuid 099b36b5-1483-4a8a-8ccf-c97fe0b1b521))
-    (pin "2" (uuid ae36f9c2-240a-4d53-bbde-f99fe2dc7637))
-    (pin "2" (uuid 76f9cafa-5f72-4e8c-9732-c148611d7bef))
-    (pin "3" (uuid 7bf3b8b2-bb0f-4d9a-9433-24f10c669313))
-    (pin "3" (uuid 39c58a75-7693-4542-ac4e-c945f40bfbcb))
-    (pin "4" (uuid 98eec881-dca0-49cf-a280-a0e58e37fe17))
-    (pin "4" (uuid 2c3e9247-e5a8-4b61-b64e-a7be210c8776))
+    (pin "2" (uuid 76f9cafa-5f72-4e8c-9732-c148611d7bf2))
+    (pin "2" (uuid 76f9cafa-5f72-4e8c-9732-c148611d7bf2))
+    (pin "3" (uuid 39c58a75-7693-4542-ac4e-c945f40bfbce))
+    (pin "3" (uuid 39c58a75-7693-4542-ac4e-c945f40bfbce))
+    (pin "4" (uuid 2c3e9247-e5a8-4b61-b64e-a7be210c8779))
+    (pin "4" (uuid 2c3e9247-e5a8-4b61-b64e-a7be210c8779))
     (pin "5" (uuid 5b1a0c7b-0283-44e2-8569-e2ce086613e2))
     (pin "6" (uuid 3c220ed6-18bd-48a0-9a9f-ebe706cbdd12))
     (pin "7" (uuid 95ef122d-6121-4c8e-885b-f482eb6ec891))
@@ -5414,7 +5337,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -5423,7 +5346,7 @@
   (symbol (lib_id "Device:C") (at 82.55 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bae0cea-55c7-4525-a599-d0710e31ab93)
-    (property "Reference" "C2" (at 74.93 41.91 0)
+    (property "Reference" "C4" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10μ" (at 74.93 44.45 0)
@@ -5440,7 +5363,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5449,7 +5372,7 @@
   (symbol (lib_id "Device:C") (at 134.62 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e16a7d0-4fc8-4d7f-b733-de21a798cf66)
-    (property "Reference" "C3" (at 134.62 26.67 90)
+    (property "Reference" "C1" (at 134.62 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1μ" (at 134.62 29.21 90)
@@ -5466,7 +5389,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -5475,7 +5398,7 @@
   (symbol (lib_id "Device:R_US") (at 49.53 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 936cbbfd-9def-4595-85d1-54113947cd23)
-    (property "Reference" "R6" (at 44.45 168.91 0)
+    (property "Reference" "R7" (at 44.45 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 44.45 171.45 0)
@@ -5492,7 +5415,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5501,13 +5424,13 @@
   (symbol (lib_id "power:PJ-006A") (at 22.86 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93d8a1e9-68e3-49bb-b7a8-c714b2a46090)
-    (property "Reference" "J1" (at 19.6215 33.02 0)
+    (property "Reference" "J3" (at 19.6215 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJ-006A" (at 19.6215 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "3rdparty:CUI_PJ-006A" (at 22.86 43.18 0)
+    (property "Footprint" "PicoShieldHeaders:CUI_PJ-006A" (at 22.86 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 22.86 43.18 0)
@@ -5525,7 +5448,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -5534,7 +5457,7 @@
   (symbol (lib_id "power:+5V") (at 49.53 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95680052-e875-4a75-9864-9553980218fd)
-    (property "Reference" "#PWR035" (at 49.53 166.37 0)
+    (property "Reference" "#PWR039" (at 49.53 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 46.99 158.75 0)
@@ -5550,7 +5473,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -5559,7 +5482,7 @@
   (symbol (lib_id "Device:C") (at 238.76 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9611e19e-d7a9-472c-9adb-e0c7586450e9)
-    (property "Reference" "C9" (at 245.11 63.5 90)
+    (property "Reference" "C7" (at 245.11 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1μ" (at 242.57 63.5 90)
@@ -5576,7 +5499,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5585,7 +5508,7 @@
   (symbol (lib_id "Device:R_US") (at 55.88 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9676f89d-ed02-4d7f-804d-f9084d1f42b0)
-    (property "Reference" "R?" (at 60.96 132.08 0)
+    (property "Reference" "R4" (at 60.96 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k " (at 60.96 134.62 0)
@@ -5602,7 +5525,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R?") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5611,14 +5534,14 @@
   (symbol (lib_id "Connector:Conn_03x10") (at 171.45 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 997988ad-ed1f-4858-a2a6-026a72b5cf3f)
-    (property "Reference" "J5" (at 171.45 120.65 0)
+    (property "Reference" "J7" (at 171.45 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_03x10" (at 171.45 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "3rdparty:PinHeader_3x11_P2.54mm_Vertical" (at 171.45 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "PicoShieldHeaders:PinHeader_3x11_P2.54mm_Vertical" (at 171.45 120.65 0)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Datasheet" "" (at 171.45 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5656,7 +5579,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J5") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -5665,7 +5588,7 @@
   (symbol (lib_id "power:GND") (at 118.11 166.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a669958-9ab1-468c-b4a2-5254f22ed010)
-    (property "Reference" "#PWR042" (at 124.46 166.37 0)
+    (property "Reference" "#PWR043" (at 124.46 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 166.37 90)
@@ -5681,7 +5604,35 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 194.31 30.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9f735e23-c87e-430b-a483-dee906698824)
+    (property "Reference" "J1" (at 195.58 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_02x02_Odd_Even" (at 195.58 27.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (at 194.31 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 752e40dd-5dc7-443c-98f2-e370f12f0edc))
+    (pin "2" (uuid 02f97840-b0d5-496d-9869-a0d78284f690))
+    (pin "3" (uuid 5e9d7b19-5d7b-4a80-a178-ebd6164ee4b1))
+    (pin "4" (uuid 8a66adba-82ab-49c5-bead-d61308e1da2c))
+    (instances
+      (project "rcc-pico"
+        (path "/58206809-86e0-49ef-aaca-4b88089e8130"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -5690,7 +5641,7 @@
   (symbol (lib_id "Device:R_US") (at 35.56 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a087fae5-26bc-44ca-99bb-45d13e5a419b)
-    (property "Reference" "R5" (at 38.1 168.9099 0)
+    (property "Reference" "R6" (at 38.1 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 38.1 171.4499 0)
@@ -5707,7 +5658,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5716,7 +5667,7 @@
   (symbol (lib_id "power:+5V") (at 163.83 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4c8af7f-62ac-44eb-a22a-4c417b1ebf39)
-    (property "Reference" "#PWR09" (at 163.83 39.37 0)
+    (property "Reference" "#PWR02" (at 163.83 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 163.83 32.004 0)
@@ -5732,7 +5683,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -5741,7 +5692,7 @@
   (symbol (lib_id "power:+3.3V") (at 35.56 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7ba76b8-2358-4d55-8d98-5e9d5eade6e3)
-    (property "Reference" "#PWR034" (at 35.56 166.37 0)
+    (property "Reference" "#PWR038" (at 35.56 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 35.56 157.48 0)
@@ -5757,7 +5708,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5766,7 +5717,7 @@
   (symbol (lib_id "power:+5V") (at 87.63 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8f2682b-7fe4-43d1-b25c-2ae3ce6cf678)
-    (property "Reference" "#PWR024" (at 83.82 92.71 0)
+    (property "Reference" "#PWR020" (at 83.82 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 91.44 92.7099 90)
@@ -5782,7 +5733,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5791,7 +5742,7 @@
   (symbol (lib_id "power:+5V") (at 20.32 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9435b1e-5766-45ef-9566-e08755e6bf91)
-    (property "Reference" "#PWR033" (at 20.32 166.37 0)
+    (property "Reference" "#PWR037" (at 20.32 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 17.78 158.75 0)
@@ -5807,7 +5758,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -5843,7 +5794,7 @@
   (symbol (lib_id "Device:R_US") (at 20.32 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8da6c4f-772a-4052-ba86-e902d3153679)
-    (property "Reference" "R4" (at 15.24 168.91 0)
+    (property "Reference" "R5" (at 15.24 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 15.24 171.45 0)
@@ -5860,7 +5811,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -5869,7 +5820,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 261.62 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb166b8f-8241-480d-b79d-75324d548f2a)
-    (property "Reference" "J6" (at 262.89 33.02 0)
+    (property "Reference" "J2" (at 262.89 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x03_Odd_Even" (at 262.89 35.56 0)
@@ -5890,7 +5841,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J6") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -5899,7 +5850,7 @@
   (symbol (lib_id "power:GND") (at 231.14 156.21 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bded3cdc-deb9-4acb-9806-8f58a3966fd7)
-    (property "Reference" "#PWR031" (at 224.79 156.21 0)
+    (property "Reference" "#PWR033" (at 224.79 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 156.21 90)
@@ -5915,7 +5866,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -5924,7 +5875,7 @@
   (symbol (lib_id "power:GND") (at 85.09 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c22b9cf3-90ca-4e15-9bcb-976c781e6a93)
-    (property "Reference" "#PWR023" (at 85.09 78.74 0)
+    (property "Reference" "#PWR018" (at 85.09 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 80.01 0)
@@ -5940,7 +5891,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5949,7 +5900,7 @@
   (symbol (lib_id "power:+3.3V") (at 271.78 40.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c697601a-ee68-46f0-a11c-335272dd830c)
-    (property "Reference" "#PWR045" (at 267.97 40.64 0)
+    (property "Reference" "#PWR05" (at 267.97 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 278.13 40.64 90)
@@ -5965,7 +5916,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5974,7 +5925,7 @@
   (symbol (lib_id "power:GND") (at 48.26 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c890058b-7b93-4997-82be-53f03679a139)
-    (property "Reference" "#PWR02" (at 48.26 68.58 0)
+    (property "Reference" "#PWR011" (at 48.26 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 67.31 0)
@@ -5990,7 +5941,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5999,13 +5950,13 @@
   (symbol (lib_id "Connector:Conn_3x4_female") (at 163.83 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd3171af-7c26-4a55-96fa-b2283a7bd17e)
-    (property "Reference" "J4" (at 167.64 64.77 0)
+    (property "Reference" "J5" (at 167.64 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_3x4_female" (at 167.64 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "3rdparty:PinHeader_3x4_P2.54mm_vertical" (at 163.83 93.98 0)
+    (property "Footprint" "PicoShieldHeaders:PinHeader_3x04_P2.54mm_Vertical_gpio" (at 163.83 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 163.83 93.98 0)
@@ -6026,7 +5977,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -6035,7 +5986,7 @@
   (symbol (lib_id "power:GND") (at 25.4 127 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdf8b5ac-9e13-40d3-8963-461202761481)
-    (property "Reference" "#PWR03" (at 19.05 127 0)
+    (property "Reference" "#PWR028" (at 19.05 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.32 127 90)
@@ -6051,7 +6002,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -6060,7 +6011,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 48.26 36.83 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d207b106-cbf2-455d-bb0c-e0cd108034cd)
-    (property "Reference" "#FLG01" (at 50.165 36.83 0)
+    (property "Reference" "#FLG02" (at 50.165 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 52.07 36.8299 90)
@@ -6076,7 +6027,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -6085,7 +6036,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 48.26 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d22ea30d-1937-4ef0-88d4-994e382773c6)
-    (property "Reference" "#FLG02" (at 50.165 62.23 0)
+    (property "Reference" "#FLG03" (at 50.165 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 52.07 62.2299 90)
@@ -6101,7 +6052,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -6110,7 +6061,7 @@
   (symbol (lib_id "Pico_Shield_Headers:PT01-D120K2-B103") (at 158.75 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3aa7027-a7e4-4be1-a618-d290b85de3f5)
-    (property "Reference" "R?" (at 157.48 168.91 0)
+    (property "Reference" "R11" (at 157.48 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "PT01-D120K2-B103" (at 151.13 181.61 0)
@@ -6140,7 +6091,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -6149,7 +6100,7 @@
   (symbol (lib_id "power:+9V") (at 82.55 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3c23cd3-ec0e-49d3-ab98-1d1b4d493309)
-    (property "Reference" "#PWR04" (at 82.55 36.83 0)
+    (property "Reference" "#PWR01" (at 82.55 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 82.55 29.464 0)
@@ -6165,7 +6116,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -6174,7 +6125,7 @@
   (symbol (lib_id "power:+3.3V") (at 267.97 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d40ca32c-f612-49d4-aa96-9b8598e7f65f)
-    (property "Reference" "#PWR030" (at 264.16 64.77 0)
+    (property "Reference" "#PWR013" (at 264.16 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 274.32 64.77 90)
@@ -6190,7 +6141,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -6199,7 +6150,7 @@
   (symbol (lib_id "power:+3.3V") (at 231.14 158.75 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7b488ff-68d0-4b7c-8689-c236cc3615fe)
-    (property "Reference" "#PWR032" (at 234.95 158.75 0)
+    (property "Reference" "#PWR036" (at 234.95 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 224.79 158.75 90)
@@ -6215,7 +6166,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -6224,7 +6175,7 @@
   (symbol (lib_id "Device:C") (at 27.94 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7c2da52-c833-499a-a754-caa9d361031f)
-    (property "Reference" "C7" (at 21.59 85.09 0)
+    (property "Reference" "C8" (at 21.59 85.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 21.59 87.63 0)
@@ -6241,7 +6192,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -6250,7 +6201,7 @@
   (symbol (lib_id "Pico_Shield_Headers:Conn_03x03") (at 121.92 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8d9ac57-828e-43e2-b04d-f670407cf54a)
-    (property "Reference" "J?" (at 113.0681 161.29 0)
+    (property "Reference" "J13" (at 113.0681 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 121.92 171.45 0)
@@ -6274,7 +6225,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J?") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -6283,7 +6234,7 @@
   (symbol (lib_id "Device:C") (at 85.09 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d918d344-e68e-43c3-818f-4da946ee2ae2)
-    (property "Reference" "C8" (at 78.74 86.36 0)
+    (property "Reference" "C9" (at 78.74 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 78.74 88.9 0)
@@ -6300,7 +6251,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -6309,7 +6260,7 @@
   (symbol (lib_id "power:+3.3V") (at 102.87 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df0f6881-f9e4-4621-af3d-51f3e178f972)
-    (property "Reference" "#PWR025" (at 102.87 87.63 0)
+    (property "Reference" "#PWR016" (at 102.87 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 102.87 80.264 0)
@@ -6325,7 +6276,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -6334,7 +6285,7 @@
   (symbol (lib_id "power:+3.3V") (at 154.94 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df89187b-5c74-450f-9ae6-7e4cd017de89)
-    (property "Reference" "#PWR011" (at 158.75 156.21 0)
+    (property "Reference" "#PWR031" (at 158.75 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 148.59 156.21 90)
@@ -6350,7 +6301,35 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 194.31 40.64 0) (unit 1)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
+    (uuid e28fa02d-b44d-4878-ae61-604914f4835f)
+    (property "Reference" "J15" (at 195.58 35.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_02x02_Odd_Even" (at 195.58 38.1 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" (at 194.31 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3142349-9fa4-47ae-b6ba-e12c7f616f91))
+    (pin "2" (uuid 95fdb06f-d056-4709-9181-07f2cc426544))
+    (pin "3" (uuid ae1438b7-193f-4077-8c27-2e7a7a3d90f0))
+    (pin "4" (uuid 75229e85-c512-4389-8d8f-50bbc0c24d49))
+    (instances
+      (project "rcc-pico"
+        (path "/58206809-86e0-49ef-aaca-4b88089e8130"
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -6359,7 +6338,7 @@
   (symbol (lib_id "power:+9V") (at 85.09 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e58ab535-ac97-457e-841d-0460d57434c8)
-    (property "Reference" "#PWR06" (at 81.28 128.27 0)
+    (property "Reference" "#PWR029" (at 81.28 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 88.9 128.2699 90)
@@ -6375,7 +6354,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -6384,7 +6363,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 205.74 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6902437-f5f0-4119-9d22-58f14b55706b)
-    (property "Reference" "J?" (at 207.01 148.59 0)
+    (property "Reference" "J10" (at 207.01 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Odd_Even" (at 207.01 161.29 0)
@@ -6407,7 +6386,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J?") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -6441,13 +6420,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 30.48 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f00f6c59-9948-4087-ba91-80bb5ef1f821)
-    (property "Reference" "J2" (at 33.02 124.4599 0)
+    (property "Reference" "J8" (at 33.02 124.4599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal" (at 33.02 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TerminalBlock:TCxx03_5mm_2x1" (at 30.48 124.46 0)
+    (property "Footprint" "PicoShieldHeaders:TCxx03_5mm_2x1" (at 30.48 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 124.46 0)
@@ -6458,7 +6437,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J2") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -6529,7 +6508,7 @@
     (property "Value" "PicoW" (at 214.63 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "3rdparty:RPi_Pico_SMD_TH" (at 214.63 100.33 90)
+    (property "Footprint" "PicoShieldHeaders:RPi_Pico_SMD_TH" (at 214.63 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 214.63 100.33 0)
@@ -6590,7 +6569,7 @@
   (symbol (lib_id "Device:R_US") (at 78.74 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6e1131b-3920-486e-bbb7-57a572a564cd)
-    (property "Reference" "R8" (at 73.66 168.91 0)
+    (property "Reference" "R9" (at 73.66 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 73.66 171.45 0)
@@ -6607,7 +6586,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -6616,7 +6595,7 @@
   (symbol (lib_id "power:+9V") (at 48.26 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9c36450-9f5e-46c1-ba87-28778ad065bb)
-    (property "Reference" "#PWR01" (at 48.26 40.64 0)
+    (property "Reference" "#PWR03" (at 48.26 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 48.26 33.274 0)
@@ -6632,7 +6611,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -6641,7 +6620,7 @@
   (symbol (lib_id "power:GND") (at 130.81 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa4b1041-c5fd-490c-bec3-76141cfe916c)
-    (property "Reference" "#PWR07" (at 130.81 49.53 0)
+    (property "Reference" "#PWR06" (at 130.81 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 48.26 0)
@@ -6657,7 +6636,7 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -6666,7 +6645,7 @@
   (symbol (lib_id "Device:C") (at 144.78 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc5f228b-818d-4d6e-aec3-c3ad150ec72a)
-    (property "Reference" "C4" (at 138.43 49.53 0)
+    (property "Reference" "C6" (at 138.43 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47p" (at 138.43 52.07 0)
@@ -6683,45 +6662,37 @@
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x07_Odd_Even") (at 213.36 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 213.36 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ffc9fdd2-a45c-4e96-891a-bd4f4f6e9043)
-    (property "Reference" "J9" (at 214.63 21.59 0)
+    (property "Reference" "J14" (at 214.63 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_02x07_Odd_Even" (at 214.63 24.13 0)
+    (property "Value" "Conn_02x05_Odd_Even" (at 214.63 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" (at 213.36 34.29 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (at 213.36 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cabb523c-f697-4085-81b6-77b0cf8f98b5))
-    (pin "10" (uuid 6c867fe4-466f-4829-bacd-06cec7d7ef98))
-    (pin "11" (uuid 9910b6a3-9e09-43d7-a484-385f1e2dd2d8))
-    (pin "12" (uuid 5f1b2139-74dc-4dfc-8d1f-1d29de5810f0))
-    (pin "13" (uuid df522e19-2ca5-4c3c-b6a7-26d4395b1183))
-    (pin "14" (uuid a12f8f63-08e4-4e7c-9868-a9732559b393))
     (pin "2" (uuid d81c1683-6b7a-4a42-914d-303783b6c781))
     (pin "3" (uuid 8d6f48b8-41ed-4b32-b7a4-be220901aa76))
     (pin "4" (uuid 270302df-df4d-4689-b45d-b8533b308048))
     (pin "5" (uuid 7612dc69-6902-4641-8eb0-706d263f58e4))
     (pin "6" (uuid 2a386a78-0b03-4fb1-befc-818ddf632ac0))
-    (pin "7" (uuid 4aaf3b41-173d-4b7e-bcee-907ef6c90853))
-    (pin "8" (uuid cc837f1b-e72b-4780-9d07-5f026889d26e))
-    (pin "9" (uuid 86d32aa7-5ac0-4ddb-a2ca-2d8c3915cdc1))
     (instances
       (project "rcc-pico"
         (path "/58206809-86e0-49ef-aaca-4b88089e8130"
-          (reference "J9") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
