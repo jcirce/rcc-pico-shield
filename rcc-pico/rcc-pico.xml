@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/jeannettecirce/Desktop/rcc-pico-shield/rcc-pico/rcc-pico.kicad_sch</source>
-    <date>2023 April 18, Tuesday 10:26:57</date>
+    <date>2023 April 18, Tuesday 10:33:05</date>
     <tool>Eeschema 7.0.1-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -136,7 +136,7 @@
     </comp>
     <comp ref="D2">
       <value>LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rcc-pico.kicad_sch"/>
