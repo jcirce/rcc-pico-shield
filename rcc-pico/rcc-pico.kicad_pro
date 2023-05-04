@@ -441,11 +441,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "rcc-pico.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rcc-pico.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
